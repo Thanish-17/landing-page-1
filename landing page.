@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Dreamers</title>
+    <link rel="stylesheet" href="dreamer.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+    #reviews-container
+    {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(230, 211, 211);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    }
+    .swiper-container 
+    {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+     .swiper-slide
+     {
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+   .review-card p
+     {
+        color: #555;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2020/12/01/Butterfly-Logo-Graphics-6947229-1.jpg" alt="Header Image">
+        <nav>
+            <div >Little Dreamers</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+             </ul>
+        </nav>
+    </header>
+    <section id="section1" class="section1">
+        <div class="background-image"></div>
+        <div class="content">
+            <h1>Create a Magical Space for Your Kids</h1>
+            <p>Transform their room into a world of imagination and wonder.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <h2>Custom Themes</h2>
+            <p>Select from a variety of themes to suit your child's preferences.</p>
+        </div>
+        <div class="feature">
+            <h2>Interactive Design</h2>
+            <p>Create interactive and engaging spaces that stimulate creativity.</p>
+        </div>
+        <div class="feature">
+            <h2>Durable Materials</h2>
+            <p>We use high-quality, safe materials for long-lasting enjoyment.</p>
+        </div>
+    </section>
+    <section id="gallery" class="section" >
+        <div class="background-image1"></div>
+        <div class="customization-card">
+            <img src="https://cdn.shopify.com/s/files/1/0085/5513/5039/files/244393996_2409658912499141_9149578511716969265_n_1024x1024.jpg?v=1633777852" alt="Kids Room">
+            <h2>Fantasy Room</h2>
+            <p>Transform your child's room into a magical wonderland with our fantasy-themed customization options.</p>
+        </div>
+        <div class="customization-card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.LDCVG_O365ZfUWZ13rZtlgHaFj?w=266&h=200&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Play Area">
+            <h2>Playful Corner</h2>
+            <p>Create a playful corner with vibrant colors and interactive elements for endless fun and creativity.</p>
+        </div>
+        <div class="customization-card">
+           <img src="https://tse1.mm.bing.net/th/id/OIP.MDz0w2cc40Hxu9EMWdlBKAHaHb?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Study Space">
+            <h2>Learning Nook</h2>
+            <p>Set up a dedicated learning space with ergonomic furniture and inspiring decorations for focused study.</p>
+        </div>
+        <div class="customization-card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.XFo941kDMdaWY4cDlycwcAHaLG?w=600&h=899&rs=1&pid=ImgDetMain" alt="Adventurous Room">
+            <h2>Adventurous Room</h2>
+            <p>Create an adventurous space filled with excitement and exploration for your little one.</p>
+        </div>
+        <div class="customization-card">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.GzNjv6qJzDSDF6DTZd4P7wHaHa?w=214&h=215&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Princess Palace">
+            <h2>Princess Palace</h2>
+<p>Create a fairy tale kingdom for your little princess with regal decorations, soft colors, and magical touches.</p>
+        </div>
+        <div class="customization-card">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.Nbt7s9vvHQlBfp-UBfyFmAHaFj?w=273&h=205&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Superhero Headquarters">
+            <h2>Superhero Headquarters</h2>
+            <p>Turn your child's room into a superhero hideout with bold colors, action-packed decor, and empowering elements.</p>
+        </div>
+    </section> <section class="bg">
+        <div id="reviews-container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>"Great customization options for my kid's room! The team was very responsive and helped me choose the perfect theme."</p>
+                        <p>- Shyam Sundar</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>"My child loves the personalized decor! It has made their room a magical space. Thank you for the creative designs."</p>
+                        <p>- Maya Unnikrishnan</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>"Highly satisfied with the quality and uniqueness of the customized items. Definitely worth the investment."</p>
+                        <p>- Sita Vikram</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+        </section>
+   <section id="contact" class="contact">
+        <p>Ready to transform your kids' space? Contact us for a consultation!</p>
+        <div class="contact-info">
+            <p>Email: info@littledreamers.com</p>
+            <p>Phone: +91-80726 41945 </p>
+            <p>DM for orders @little_dreamers instagram.com </p>
+        </div>
+    </section>
+</body>
+</html>
